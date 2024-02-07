@@ -18,6 +18,8 @@ import (
 
 // New registers the routes and returns the router.
 func New(auth *authenticator.Authenticator) *gin.Engine {
+
+	// REPLACE ROUTER WITH GOLANG ?
 	router := gin.Default()
 
 	// To store custom types in our cookies,
